@@ -1,9 +1,9 @@
-if dracula#should_abort('html')
+if omni#should_abort('html')
     finish
 endif
 
-hi! link htmlTag         DraculaFg
-hi! link htmlArg         DraculaGreenItalic
-hi! link htmlTitle       DraculaFg
-hi! link htmlH1          DraculaFg
-hi! link htmlSpecialChar DraculaPurple
+hi! link htmlTag         OmniFg
+hi! link htmlArg         OmniGreenItalic
+hi! link htmlTitle       OmniFg
+hi! link htmlH1          OmniFg
+hi! link htmlSpecialChar OmniPurple

@@ -1,17 +1,17 @@
-if dracula#should_abort('tex')
+if omni#should_abort('tex')
     finish
 endif
 
-hi! link texBeginEndName  DraculaOrangeItalic
-hi! link texBoldItalStyle DraculaOrangeBoldItalic
-hi! link texBoldStyle     DraculaOrangeBold
-hi! link texInputFile     DraculaOrangeItalic
-hi! link texItalStyle     DraculaYellowItalic
-hi! link texLigature      DraculaPurple
-hi! link texMath          DraculaPurple
-hi! link texMathMatcher   DraculaPurple
-hi! link texMathSymbol    DraculaPurple
-hi! link texRefZone       DraculaBgDarker
-hi! link texSpecialChar   DraculaPurple
-hi! link texSubscripts    DraculaPurple
-hi! link texTitle         DraculaFgBold
+hi! link texBeginEndName  OmniOrangeItalic
+hi! link texBoldItalStyle OmniOrangeBoldItalic
+hi! link texBoldStyle     OmniOrangeBold
+hi! link texInputFile     OmniOrangeItalic
+hi! link texItalStyle     OmniYellowItalic
+hi! link texLigature      OmniPurple
+hi! link texMath          OmniPurple
+hi! link texMathMatcher   OmniPurple
+hi! link texMathSymbol    OmniPurple
+hi! link texRefZone       OmniBgDarker
+hi! link texSpecialChar   OmniPurple
+hi! link texSubscripts    OmniPurple
+hi! link texTitle         OmniFgBold

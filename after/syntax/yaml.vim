@@ -1,12 +1,12 @@
-if dracula#should_abort('yaml')
+if omni#should_abort('yaml')
     finish
 endif
 
-hi! link yamlAlias           DraculaGreenItalicUnderline
-hi! link yamlAnchor          DraculaPinkItalic
-hi! link yamlBlockMappingKey DraculaCyan
-hi! link yamlFlowCollection  DraculaPink
+hi! link yamlAlias           OmniGreenItalicUnderline
+hi! link yamlAnchor          OmniPinkItalic
+hi! link yamlBlockMappingKey OmniCyan
+hi! link yamlFlowCollection  OmniPink
 hi! link yamlFlowIndicator   Delimiter
-hi! link yamlNodeTag         DraculaPink
-hi! link yamlPlainScalar     DraculaYellow
+hi! link yamlNodeTag         OmniPink
+hi! link yamlPlainScalar     OmniYellow
 

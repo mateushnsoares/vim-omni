@@ -1,6 +1,6 @@
-if dracula#should_abort('lua')
+if omni#should_abort('lua')
     finish
 endif
 
-hi! link luaFunc  DraculaCyan
-hi! link luaTable DraculaFg
+hi! link luaFunc  OmniCyan
+hi! link luaTable OmniFg

@@ -1,4 +1,4 @@
-if dracula#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
+if omni#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
   finish
 endif
 
@@ -11,11 +11,11 @@ hi! link javaScriptFunction Keyword
 
 hi! link jsArrowFunction           Operator
 hi! link jsClassMethodType         Keyword
-hi! link jsDestructuringAssignment DraculaOrangeItalic
-hi! link jsDocParam                DraculaOrangeItalic
+hi! link jsDestructuringAssignment OmniOrangeItalic
+hi! link jsDocParam                OmniOrangeItalic
 hi! link jsDocTags                 Keyword
 hi! link jsDocType                 Type
-hi! link jsDocTypeBrackets         DraculaCyan
+hi! link jsDocTypeBrackets         OmniCyan
 hi! link jsFuncArgOperator         Operator
 hi! link jsFunction                Keyword
 hi! link jsTemplateBraces          Special
@@ -28,7 +28,7 @@ hi! link jsxTag             Keyword
 hi! link jsxTagName         Keyword
 hi! link jsxComponentName   Type
 hi! link jsxCloseTag        Type
-hi! link jsxAttrib          DraculaGreenItalic
+hi! link jsxAttrib          OmniGreenItalic
 hi! link jsxCloseString     Identifier
 hi! link jsxOpenPunct       Identifier
 

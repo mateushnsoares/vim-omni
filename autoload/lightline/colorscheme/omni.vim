@@ -1,20 +1,20 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/dracula.vim
+" Filename: autoload/lightline/colorscheme/omni.vim
 " Author: adamalbrecht
 " License: MIT License
 " Last Change: 2018/04/11
 " =============================================================================
 
-let s:black    = g:dracula#palette.bg
-let s:gray     = g:dracula#palette.selection
-let s:white    = g:dracula#palette.fg
-let s:darkblue = g:dracula#palette.comment
-let s:cyan     = g:dracula#palette.cyan
-let s:green    = g:dracula#palette.green
-let s:orange   = g:dracula#palette.orange
-let s:purple   = g:dracula#palette.purple
-let s:red      = g:dracula#palette.red
-let s:yellow   = g:dracula#palette.yellow
+let s:black    = g:omni#palette.bg
+let s:gray     = g:omni#palette.selection
+let s:white    = g:omni#palette.fg
+let s:darkblue = g:omni#palette.comment
+let s:cyan     = g:omni#palette.cyan
+let s:green    = g:omni#palette.green
+let s:orange   = g:omni#palette.orange
+let s:purple   = g:omni#palette.purple
+let s:red      = g:omni#palette.red
+let s:yellow   = g:omni#palette.yellow
 
 if exists('g:lightline')
 
@@ -35,7 +35,7 @@ if exists('g:lightline')
   let s:p.normal.error = [ [ s:red, s:black ] ]
   let s:p.normal.warning = [ [ s:yellow, s:black ] ]
 
-  let g:lightline#colorscheme#dracula#palette = lightline#colorscheme#flatten(s:p)
+  let g:lightline#colorscheme#omni#palette = lightline#colorscheme#flatten(s:p)
 
 endif
 

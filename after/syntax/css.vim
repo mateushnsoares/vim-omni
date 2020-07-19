@@ -1,15 +1,15 @@
-if dracula#should_abort('css')
+if omni#should_abort('css')
     finish
 endif
 
 hi! link cssAttrComma         Delimiter
-hi! link cssAttrRegion        DraculaPink
-hi! link cssAttributeSelector DraculaGreenItalic
+hi! link cssAttrRegion        OmniPink
+hi! link cssAttributeSelector OmniGreenItalic
 hi! link cssBraces            Delimiter
 hi! link cssFunctionComma     Delimiter
-hi! link cssNoise             DraculaPink
-hi! link cssProp              DraculaCyan
-hi! link cssPseudoClass       DraculaPink
-hi! link cssPseudoClassId     DraculaGreenItalic
-hi! link cssUnitDecorators    DraculaPink
-hi! link cssVendor            DraculaGreenItalic
+hi! link cssNoise             OmniPink
+hi! link cssProp              OmniCyan
+hi! link cssPseudoClass       OmniPink
+hi! link cssPseudoClassId     OmniGreenItalic
+hi! link cssUnitDecorators    OmniPink
+hi! link cssVendor            OmniGreenItalic
